@@ -17,11 +17,11 @@ for letter in range(0, nr_letters + 1):
   random_letter = random.choice(letters)
   password += random_letter
 
-for symbol in range(0, nr_symbols):
+for symbol in range(0, nr_symbols + 1):
   random_symbol = random.choice(symbols)
   password += random_symbol
 
-for number in range(0, nr_numbers):
+for number in range(0, nr_numbers + 1):
   random_number = random.choice(numbers)
   password += random_number
 print(password)
@@ -33,11 +33,11 @@ for letter in range(0, nr_letters + 1):
   random_letter = random.choice(letters)
   password_list.append(random_letter)
 
-for symbol in range(0, nr_symbols):
+for symbol in range(0, nr_symbols +1):
   random_symbol = random.choice(symbols)
   password_list.append(random_symbol)
 
-for number in range(0, nr_numbers):
+for number in range(0, nr_numbers + 1):
   random_number = random.choice(numbers)
   password_list.append(random_number)
 
